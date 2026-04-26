@@ -33,7 +33,7 @@ jobs:
         run: pip install jupyter-book
 
       - name: Build the book
-        run: jupyter-book build lending_club_book/
+        run: jupyter-book build .
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -41,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "lending_club_book/_build/html"
+          path: "_build/html"
 
       - name: Deploy to GitHub Pages
         id: deployment
