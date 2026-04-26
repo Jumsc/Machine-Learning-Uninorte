@@ -29,11 +29,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install jupyter-book
-        run: pip install jupyter-book
+      - name: Install dependencies
+        run: |
+          pip install jupyter-book==0.15.1
+          pip install myst-nb
 
       - name: Build the book
-        run: jupyter-book build .
+        run: jb build .
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
