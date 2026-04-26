@@ -1,6 +1,5 @@
 title: "Lending Club — Loan Default Prediction"
-author: "Proyecto Integrador de Aprendizaje Automático"
-logo: logo.png
+author: "Juan Sanchez, David Florez"
 
 execute:
   execute_notebooks: "off"  # No re-ejecutar, usar outputs guardados
