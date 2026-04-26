@@ -1,0 +1,11 @@
+_build/
+*.csv
+*.parquet
+*.pkl
+*.npy
+*.json
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+checkpoints/

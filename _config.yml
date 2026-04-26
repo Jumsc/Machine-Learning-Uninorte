@@ -1,0 +1,36 @@
+title: "Lending Club — Loan Default Prediction"
+author: "Proyecto Integrador de Aprendizaje Automático"
+logo: logo.png
+
+execute:
+  execute_notebooks: "off"  # No re-ejecutar, usar outputs guardados
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
+    - substitution
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  use_edit_page_button: false
+  home_page_in_navbar: true
+  favicon: ""
+  extra_navbar: ""
+  comments:
+    hypothesis: false
+
+repository:
+  url: https://github.com/Jumsc/Machine-Learning-Uninorte
+  branch: main
+
+launch_buttons:
+  notebook_interface: "classic"
+  colab_url: "https://colab.research.google.com"
+
+sphinx:
+  config:
+    html_show_sourcelink: false
+    nb_execution_show_tb: false
